@@ -14,7 +14,7 @@ const slides = [
   },
   {
     src: "/gallery/gallery2.png",
-    caption: "The Heart of Aster Café",
+    caption: "The Heart of TLC Cafe",
   },
   {
     src: "/gallery/gallery3.png",

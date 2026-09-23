@@ -22,7 +22,7 @@ export const ImmersiveImage = () => {
       >
         <Image
           src="/gallery/gallery2.png"
-          alt="Aster Cafe Architecture"
+          alt="TLC Cafe Architecture"
           fill
           className="object-cover"
           sizes="100vw"

@@ -4,90 +4,27 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import { ChefCard } from "./ChefCard";
 import { motion } from "framer-motion";
 
-const CHEFS_DATA = [
+const REVIEWS_DATA = [
   {
-    id: "chef-1",
-    name: "Alessandro Ricci",
-    role: "Executive Chef",
-    cuisine: "Italian Cuisine",
-    experience: "18 Years Experience",
-    speciality: "Wood-fired Pizza & Handmade Pasta",
-    description: "Known for combining authentic Italian recipes with modern presentation and locally sourced ingredients.",
-    imageUrl: "/images/chefs/chef1.png",
-    social: {
-      facebook: "#",
-      instagram: "#",
-    },
+    id: "review-1",
+    name: "Bryan",
+    role: "Local Guide",
+    description: "Cozy, Charming and probably the best PIZZAS in town. Add to this the feel of sitting in an art emporium... this one deserves a 5 star rating.",
+    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop",
   },
   {
-    id: "chef-2",
-    name: "Mei Lin",
-    role: "Executive Pastry Chef",
-    cuisine: "French-Asian Fusion",
-    experience: "12 Years Experience",
-    speciality: "Artisanal Entremets & Sugar Work",
-    description: "An artist of the sweet kitchen, blending delicate Asian flavors with classic French pastry techniques.",
-    imageUrl: "/images/chefs/chef2.png",
-    social: {
-      facebook: "#",
-      instagram: "#",
-    },
+    id: "review-2",
+    name: "Poonam S.",
+    role: "Coffee Enthusiast",
+    description: "It's the only place in Mangalore where you actually get the coffee that's mentioned on the menu! The staff is very friendly too!",
+    imageUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop",
   },
   {
-    id: "chef-3",
-    name: "Kenji Sato",
-    role: "Master Sushi Chef",
-    cuisine: "Japanese Omakase",
-    experience: "25 Years Experience",
-    speciality: "Edomae Sushi & Knife Skills",
-    description: "A purist dedicated to the craft, honoring centuries-old traditions to create unforgettable sushi experiences.",
-    imageUrl: "/images/chefs/chef3.png",
-    social: {
-      facebook: "#",
-      instagram: "#",
-    },
-  },
-  {
-    id: "chef-4",
-    name: "Julien Dubois",
-    role: "Chef de Cuisine",
-    cuisine: "Modern French",
-    experience: "15 Years Experience",
-    speciality: "Sauce Making & Gastronomy",
-    description: "Elevating rustic French classics into Michelin-worthy masterpieces with unparalleled attention to detail.",
-    imageUrl: "/images/chefs/chef4.png",
-    social: {
-      facebook: "#",
-      instagram: "#",
-    },
-  },
-  {
-    id: "chef-5",
-    name: "Amara Okeke",
-    role: "Sous Chef",
-    cuisine: "Contemporary Global",
-    experience: "10 Years Experience",
-    speciality: "Flavor Profiling & Fermentation",
-    description: "A rising star bringing bold, complex flavor profiles and innovative preservation techniques to our menu.",
-    imageUrl: "/images/chefs/chef5.png",
-    social: {
-      facebook: "#",
-      instagram: "#",
-    },
-  },
-  {
-    id: "chef-6",
-    name: "Mateo Vargas",
-    role: "Grill Master",
-    cuisine: "Argentinian & Wood-fire",
-    experience: "14 Years Experience",
-    speciality: "Open-fire Cooking & Dry Aging",
-    description: "Mastering the primal art of fire, coaxing extraordinary flavors from the finest cuts of meat and vegetables.",
-    imageUrl: "/images/chefs/chef6.png",
-    social: {
-      facebook: "#",
-      instagram: "#",
-    },
+    id: "review-3",
+    name: "Siddharth S.",
+    role: "Regular Customer",
+    description: "Beautiful cozy cafe with a good playlist of soothing blues and jazz. Loved the coffee.",
+    imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop",
   },
 ];
 
@@ -155,7 +92,7 @@ function MobileChefCarousel() {
         "
         style={{ scrollPaddingLeft: "7vw", scrollPaddingRight: "7vw" }}
       >
-        {CHEFS_DATA.map((chef, idx) => (
+        {REVIEWS_DATA.map((chef, idx) => (
           <div
             key={chef.id}
             ref={(el) => { itemRefs.current[idx] = el; }}
@@ -173,7 +110,7 @@ function MobileChefCarousel() {
 
       {/* Pagination dots */}
       <div className="flex items-center justify-center gap-[10px] mt-6" role="tablist" aria-label="Chef slides">
-        {CHEFS_DATA.map((chef, idx) => (
+        {REVIEWS_DATA.map((chef, idx) => (
           <motion.button
             key={chef.id}
             role="tab"
@@ -199,7 +136,7 @@ function MobileChefCarousel() {
 function DesktopChefGrid() {
   return (
     <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto w-full px-6 lg:px-8 py-16">
-      {CHEFS_DATA.map((chef) => (
+      {REVIEWS_DATA.map((chef) => (
         <ChefCard key={chef.id} chef={chef} />
       ))}
     </div>

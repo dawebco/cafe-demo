@@ -35,7 +35,7 @@ export const MenuPreviewSection = () => {
           </h2>
 
           <p className="text-base md:text-lg text-[#1F1B18]/70 font-light leading-relaxed">
-            Handcrafted pizzas, artisan burgers, specialty coffee and desserts prepared with premium ingredients.
+            Authentic wood-fired sourdough pizzas, gourmet pita bread, and specialty coffee.
           </p>
         </div>
 

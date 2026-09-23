@@ -64,15 +64,15 @@ export const AboutHero = () => {
         >
           <span className="text-[#B96D40] text-sm tracking-[0.2em] font-semibold uppercase mb-6 flex items-center gap-4">
             <span className="w-8 h-[1px] bg-[#B96D40] block opacity-50" />
-            About Aster Café
+            About TLC Cafe
           </span>
           
           <h2 className="font-serif text-[#1F1A17] text-[2.75rem] md:text-6xl lg:text-7xl leading-[1.05] mb-8 max-w-[15ch]">
-            A sanctuary for the senses.
+            A serene, peaceful space.
           </h2>
           
           <p className="font-sans text-[#756A63] text-lg md:text-xl leading-relaxed mb-12 max-w-[42ch]">
-            Aster Café was born not from a desire to disrupt, but from a need to preserve. We look to the materials—the unpolished stone, the aged oak, the porous ceramic—as our foundational guides. Here, the architecture does not compete with the craft; it cradles it.
+            TLC Cafe is a charming, cozy art cafe with a warm wooden theme. We offer specialty coffee, authentic wood-fired sourdough pizzas, and gourmet pita bread. It is a serene, peaceful space perfect for reading, working, and listening to soothing blues and jazz.
           </p>
 
           {/* Luxury CTA Button */}

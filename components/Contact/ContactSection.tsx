@@ -41,14 +41,14 @@ export const ContactSection = () => {
             className="w-full h-[400px] lg:h-[550px] rounded-[24px] overflow-hidden shadow-[0_24px_60px_rgba(31,26,23,0.08)] bg-[#F2EFE9] order-1 lg:order-none"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528000654!2d-74.14448744574937!3d40.69766374865766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              src="https://maps.google.com/maps?q=12.8989334,74.8388422&hl=en&z=16&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Aster Cafe Location"
+              title="TLC Cafe Location"
             />
           </motion.div>
 
@@ -66,11 +66,11 @@ export const ContactSection = () => {
             </motion.span>
             
             <motion.h2 variants={itemVariants} className="font-serif text-5xl md:text-6xl leading-[1.1] mb-6">
-              Aster Café
+              TLC Cafe
             </motion.h2>
 
             <motion.p variants={itemVariants} className="font-sans text-[#756A63] text-lg leading-relaxed mb-12 max-w-[42ch]">
-              An intimately crafted space for extraordinary moments. We look forward to welcoming you into our sanctuary of taste and tradition.
+              An intimately crafted space for extraordinary moments. We look forward to welcoming you to our serene and cozy art cafe.
             </motion.p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mb-12 w-full">
@@ -78,8 +78,9 @@ export const ContactSection = () => {
               <motion.div variants={itemVariants}>
                 <h4 className="text-xs font-semibold tracking-widest uppercase text-[#756A63] mb-3">Address</h4>
                 <p className="font-sans text-lg leading-relaxed">
-                  123 Luxury Avenue<br/>
-                  Metropolis, NY 10001
+                  2-4-290 & 2-4-291, Moras Mansion<br/>
+                  Kottara Cross Road, Bejai<br/>
+                  Kapikad, Mangalore
                 </p>
               </motion.div>
 
@@ -87,7 +88,7 @@ export const ContactSection = () => {
               <motion.div variants={itemVariants}>
                 <h4 className="text-xs font-semibold tracking-widest uppercase text-[#756A63] mb-3">Contact</h4>
                 <p className="font-sans text-lg leading-relaxed">
-                  +1 (555) 123-4567<br/>
+                  +91 84312 33723<br/>
                   reservations@astercafe.com
                 </p>
               </motion.div>
@@ -111,7 +112,7 @@ export const ContactSection = () => {
 
               <div className="flex gap-4 sm:gap-6 mt-4 sm:mt-0">
                 <a 
-                  href="https://instagram.com/jainshreeshav" 
+                  href="https://www.instagram.com/tlc.art.cafe?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 text-[#1F1A17] hover:text-[#B96D40] hover:scale-110 transition-all duration-300 flex items-center justify-center rounded-full bg-[#1F1A17]/5 sm:bg-transparent" 
@@ -120,7 +121,7 @@ export const ContactSection = () => {
                   <FaInstagram size={24} />
                 </a>
                 <a 
-                  href="https://wa.me/919019836457" 
+                  href="https://wa.me/918431233723" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 text-[#1F1A17] hover:text-[#B96D40] hover:scale-110 transition-all duration-300 flex items-center justify-center rounded-full bg-[#1F1A17]/5 sm:bg-transparent" 

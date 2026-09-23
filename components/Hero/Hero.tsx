@@ -10,7 +10,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0 bg-[#1F1B18]">
         <Image
           src="/images/hero/hero1.webp"
-          alt="Aster Café Interior"
+          alt="TLC Cafe Interior"
           fill
           sizes="100vw"
           className="object-cover object-center"
@@ -27,13 +27,12 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-5xl px-6 sm:px-6 lg:px-8 text-center flex flex-col items-center pt-20 sm:pt-24">
         <AnimatedElement as="h1" delay={0.15} duration={0.8} yOffset={15} className="text-[2.75rem] leading-[1.15] sm:text-5xl md:text-6xl lg:text-7xl font-serif font-light text-[#F8F5F0] tracking-wide mb-6">
-          A Symphony of <br className="hidden sm:block" />
-          <span className="text-[#B8893C] italic">Taste & Elegance</span>
+          Specialty Coffee & <br className="hidden sm:block" />
+          <span className="text-[#B8893C] italic">Gourmet Pizzas</span>
         </AnimatedElement>
         
         <AnimatedElement as="p" delay={0.3} duration={0.6} yOffset={10} className="max-w-2xl text-[1.05rem] sm:text-lg md:text-xl text-[#F8F5F0]/90 font-light mb-10 leading-relaxed px-2">
-          Step into a cinematic culinary journey. From artisanal coffee and brunch 
-          to luxurious dinners, experience hospitality that feels editorial.
+          Step into a charming, cozy art cafe with a warm wooden theme. Enjoy authentic wood-fired sourdough pizzas, gourmet pita bread, and our signature coffee in a serene space perfect for reading, working, and listening to soothing blues and jazz.
         </AnimatedElement>
 
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto justify-center px-4 sm:px-0">

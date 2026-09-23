@@ -52,10 +52,10 @@ export const Navbar = () => {
               className="outline-none"
             >
               <Image
-                src="/branding/logo.png"
-                alt="Aster Café"
-                width={isTransparent ? 170 : 140}
-                height={isTransparent ? 42 : 35}
+                src="/branding/tlc-logo.png"
+                alt="TLC Cafe"
+                width={isTransparent ? 100 : 75}
+                height={isTransparent ? 100 : 75}
                 className={`object-contain transition-all duration-500 ease-in-out ${
                   isLight ? "brightness-0" : "brightness-100"
                 }`}

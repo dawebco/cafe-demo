@@ -12,7 +12,7 @@ interface DesktopNavProps {
 const NAV_ITEMS = [
   { name: "Home", id: "hero" },
   { name: "Menu", id: "menu" },
-  { name: "Chefs", id: "chefs" },
+  { name: "Reviews", id: "chefs" },
   { name: "Gallery", id: "gallery" },
   { name: "About", id: "about" },
   { name: "Contact", id: "contact" },

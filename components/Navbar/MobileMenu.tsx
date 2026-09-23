@@ -17,7 +17,7 @@ interface MobileMenuProps {
 const MENU_ITEMS = [
   { name: "Home", id: "hero" },
   { name: "Menu", id: "menu" },
-  { name: "Chefs", id: "chefs" },
+  { name: "Reviews", id: "chefs" },
   { name: "Gallery", id: "gallery" },
   { name: "About", id: "about" },
   { name: "Contact", id: "contact" },
@@ -206,10 +206,10 @@ export const MobileMenu = ({ isOpen, onClose, activeSection }: MobileMenuProps) 
                   className="outline-none focus-visible:ring-2 focus-visible:ring-crema-orange rounded"
                 >
                   <Image
-                    src="/branding/logo.png"
-                    alt="Aster Café"
-                    width={130}
-                    height={32}
+                    src="/branding/tlc-logo.png"
+                    alt="TLC Cafe"
+                    width={80}
+                    height={80}
                     className="object-contain brightness-0"
                     priority
                   />
@@ -266,7 +266,7 @@ export const MobileMenu = ({ isOpen, onClose, activeSection }: MobileMenuProps) 
 
                 <div className="flex items-center gap-6 pb-4">
                   <a
-                    href="https://instagram.com/jainshreeshav"
+                    href="https://www.instagram.com/tlc.art.cafe?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#1F1A17] hover:text-[#B96D40] hover:scale-110 transition-all duration-300 flex items-center justify-center outline-none focus-visible:ring-2 focus-visible:ring-crema-orange rounded"
@@ -275,7 +275,7 @@ export const MobileMenu = ({ isOpen, onClose, activeSection }: MobileMenuProps) 
                     <FaInstagram size={22} />
                   </a>
                   <a
-                    href="https://wa.me/919019836457"
+                    href="https://wa.me/918431233723"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#1F1A17] hover:text-[#B96D40] hover:scale-110 transition-all duration-300 flex items-center justify-center outline-none focus-visible:ring-2 focus-visible:ring-crema-orange rounded"
