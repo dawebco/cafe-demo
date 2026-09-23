@@ -8,9 +8,6 @@ interface ChefCardProps {
     id: string;
     name: string;
     role: string;
-    cuisine: string;
-    experience: string;
-    speciality: string;
     description: string;
     imageUrl: string;
   };

@@ -12,14 +12,12 @@ interface CategoryTabsProps {
 export const CategoryTabs = ({ activeCategory, onSelect }: CategoryTabsProps) => {
   const getIcon = (category: Category) => {
     switch (category) {
-      case "Pizza":
+      case "Pizzas":
         return <Pizza className="w-5 h-5 mb-2 transition-transform duration-250 ease-out group-hover:scale-[1.08]" strokeWidth={1.5} />;
-      case "Burger":
+      case "Pita Bread":
         return <Sandwich className="w-5 h-5 mb-2 transition-transform duration-250 ease-out group-hover:scale-[1.08]" strokeWidth={1.5} />;
       case "Coffee":
         return <Coffee className="w-5 h-5 mb-2 transition-transform duration-250 ease-out group-hover:scale-[1.08]" strokeWidth={1.5} />;
-      case "Desserts":
-        return <CakeSlice className="w-5 h-5 mb-2 transition-transform duration-250 ease-out group-hover:scale-[1.08]" strokeWidth={1.5} />;
       default:
         return null;
     }
